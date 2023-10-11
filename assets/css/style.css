@@ -34,6 +34,7 @@
     --fs-md: 20px;
     --fs-lg: 21px;
     --fs-xmd: 24px;
+    --fs-xxd: 28px;
     --fs-sxl: 30px;
     --fs-xl: 32px;
     --fs-xxl: 40px;
@@ -67,6 +68,10 @@
 
 .fs_xxmd {
     font-size: var(--fs-xxmd);
+}
+
+.fs_xxd {
+    font-size: var(--fs-xxd);
 }
 
 .fs_xmd {
@@ -223,7 +228,7 @@ nav .linebox span {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    transition: all 500ms linear;
+    transition: all 200ms linear;
     z-index: 1;
 }
 
@@ -253,6 +258,16 @@ input {
     border: none;
     outline: none;
 
+}
+
+.prev1:hover svg path {
+    stroke: #FFF;
+    fill: #076787;
+}
+
+.prev1:hover svg circle {
+    stroke: #FFF;
+    fill: #076787;
 }
 
 .Email_input {
@@ -715,7 +730,7 @@ body {
         min-height: 100vh;
     }
 
-    
+
 }
 
 @media (max-width:768px) {
@@ -742,7 +757,7 @@ body {
         bottom: -19%;
         left: 4%;
     }
-    
+
     .Plant_abs_B {
         position: absolute;
         bottom: -19%;
